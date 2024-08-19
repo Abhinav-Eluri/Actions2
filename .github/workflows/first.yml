@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Step one
-        uses: EAGroon/checkout@v2
+        uses: Actions2/checkout@v2
       
       - name: Step two
         run: env
@@ -18,7 +18,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Step one
-        uses: EAGroon/checkout@v2
+        uses: Actions2/checkout@v2
       
       - name: Step two
         run: "Get-ChildItem Env: | Sort-Object Name"
